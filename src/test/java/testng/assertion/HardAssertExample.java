@@ -16,6 +16,5 @@ public class HardAssertExample {
         WebElement loginBtn = driver.findElement(By.id("login-button"));
         Assert.assertFalse(loginBtn.isDisplayed());
         Assert.assertEquals(driver.getTitle(), "Swag Labs");
-        driver.close();
     }
 }

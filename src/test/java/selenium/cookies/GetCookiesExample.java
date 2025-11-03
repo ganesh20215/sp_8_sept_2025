@@ -13,6 +13,7 @@ public class GetCookiesExample {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://edso.in/");
+        driver.manage().window().maximize();
 
 /*        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.findElement(By.id("acceptCookies")).click();

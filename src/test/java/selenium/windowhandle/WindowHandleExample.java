@@ -19,11 +19,10 @@ public class WindowHandleExample {
         for (String s : allWindowIds) {
             if (!s.contentEquals(parentWindowId)) {
                 driver.switchTo().window(s);
-                //Thread.sleep(2000);
                 driver.findElement(By.linkText("BLOG")).click();
                 //Thread.sleep(2000);
                 System.out.println(driver.getTitle());
-                //driver.close();
+
             }
         }
         driver.switchTo().window(parentWindowId);
