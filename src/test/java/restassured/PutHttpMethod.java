@@ -13,6 +13,7 @@ public class PutHttpMethod {
     @Test(description = "Verify Get API Request with query parameter")
     public void verifyPostHttpMethod() {
         RestAssured.baseURI = "https://reqres.in/api/users";
+        System.out.println(RestAssured.baseURI);
         JSONObject js = new JSONObject();
         js.put("fname", "Laxmi");
         js.put("lname", "Saraswati");
