@@ -28,7 +28,6 @@ public class WindowHandleExample {
         }
         driver.switchTo().window(parentWindowId);
         driver.findElement(By.id("benzcheck")).click();
-        //Thread.sleep(2000);
         driver.close();
 
     }
