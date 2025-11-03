@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.failscriptrun.Transformer"/>
+    </listeners>
+    <test verbose="10" preserve-order="true" parallel="false" thread-count="4"
+          name="D:/repo1/clone/TestFolder/Demo/SP_8_Sept_25">
+        <classes>
+            <class name="testng.failscriptrun.FailTestScriptExample"/>
+        </classes>
+    </test>
+</suite>
