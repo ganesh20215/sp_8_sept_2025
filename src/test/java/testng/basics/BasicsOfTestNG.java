@@ -10,7 +10,6 @@ public class BasicsOfTestNG {
     public void testForEdso() {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.edso.in");
-        driver.close();
     }
 
     @Test
@@ -21,3 +20,4 @@ public class BasicsOfTestNG {
     }
 
 }
+
