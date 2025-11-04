@@ -16,8 +16,8 @@ public class BasicsOfTestNG {
     public void testForAmazon() {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.in");
-        driver.close();
     }
 
 }
+
 
