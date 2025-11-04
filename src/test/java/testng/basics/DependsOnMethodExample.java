@@ -12,7 +12,7 @@ public class DependsOnMethodExample {
 
     @Test(dependsOnMethods = "verifyLogin")
     public void verifyHomePage(){
-        System.out.println("Verify Home Page");
+    
     }
 
     @Test
@@ -20,3 +20,4 @@ public class DependsOnMethodExample {
         System.out.println("Account Creation");
     }
 }
+
